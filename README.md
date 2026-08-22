@@ -6,7 +6,7 @@ It restyles the chat shell with soft frosted-glass panels, warm cream/ink colors
 and a monospace code voice, and it replaces the sidebar brand mark with a
 handwritten **"jimmy"** wordmark next to a small dog avatar.
 
-![theme preview placeholder](#) <!-- TODO: add a real screenshot before submitting to the catalog -->
+![theme preview](./assets/screenshot.png)
 
 ## Install
 
