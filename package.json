@@ -1,0 +1,32 @@
+{
+  "name": "dsh-inkscreen-theme",
+  "version": "0.1.0",
+  "description": "DSH web plugin: an ink-and-paper Apple-glass theme with a handwritten \"jimmy\" wordmark and dog avatar for the sidebar brand.",
+  "type": "module",
+  "license": "MIT",
+  "author": "jimmy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jimmyzwang-cloud/dsh-inkscreen-theme"
+  },
+  "homepage": "https://github.com/Jimmyzwang-cloud/dsh-inkscreen-theme#readme",
+  "bugs": {
+    "url": "https://github.com/Jimmyzwang-cloud/dsh-inkscreen-theme/issues"
+  },
+  "keywords": ["dsh", "dsh-plugin", "theme", "deepseek-harness"],
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  },
+  "files": ["lib", "cordis.patch.yml"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": ["@deepseek-ai/dsh-client-runtime"]
+    }
+  }
+}
