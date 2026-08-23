@@ -1,7 +1,7 @@
 {
   "name": "dsh-inkscreen-theme",
   "version": "0.1.0",
-  "description": "DSH web plugin: an ink-and-paper Apple-glass theme with a handwritten \"jimmy\" wordmark and dog avatar for the sidebar brand.",
+  "description": "DSH web plugin: an ink-and-paper Apple-glass theme with editorial typography, conversation status tabs, a Conversation/Trace switch, and a handwritten jimmy brand.",
   "type": "module",
   "license": "MIT",
   "author": "jimmy",
@@ -26,7 +26,10 @@
     },
     "client": {
       "platform": "web",
-      "inject": ["@deepseek-ai/dsh-client-runtime"]
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
     }
   }
 }

@@ -25,6 +25,11 @@ identity/CSS injected at boot, so a hot-reload is not enough).
   the sidebar, dialogs, and scrollbars.
 - Gives Chinese conversation text a readable Kai-style editorial voice,
   expressive handwritten headings, and preserves monospace for code.
+- Adds a compact recent-conversation tab rail above the chat, with live status
+  dots for running, waiting-for-input, completed, and idle sessions; clicking a
+  tab switches directly to that conversation.
+- Places the built-in **Conversation / Trace** view switch on the same header
+  row, styled as a compact segmented control for quick context switching.
 - Watches the sidebar brand element and replaces its content with a
   handwritten wordmark (`Caveat` webfont, falling back to a system cursive
   font) plus a small rounded-square dog avatar image.
