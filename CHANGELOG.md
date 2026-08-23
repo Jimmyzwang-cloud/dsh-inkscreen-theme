@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Add an automatic ink-and-paper dark mode following DSH's appearance setting.
+- Restyle dark sidebars, composer, inputs, dialogs, code blocks, session tabs, and scrollbars with charcoal, ivory, and muted amber colors.
+
 ## 0.1.0
 
 - Initial release: ink-and-paper Apple-glass theme CSS injection.

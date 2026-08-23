@@ -5,9 +5,12 @@ An ink-and-paper, Apple-glass theme for the [DeepSeek Harness](https://github.co
 It restyles the chat shell with soft frosted-glass panels, warm cream/ink colors,
 an editorial Kai/handwritten voice for conversation text, and crisp monospace
 code. It also replaces the sidebar brand mark with a handwritten **"jimmy"**
-wordmark next to a small dog avatar.
+wordmark next to a small dog avatar. A native dark mode keeps the same ink-and-
+paper character with charcoal surfaces, warm ivory text, and muted amber accents.
 
-![theme preview](./assets/screenshot.png)
+![light theme preview](./assets/screenshot.png)
+
+![dark theme preview](./assets/dark-mode.png)
 
 ## Install
 
@@ -22,7 +25,10 @@ identity/CSS injected at boot, so a hot-reload is not enough).
 ## What it does
 
 - Injects a `<style>` block with e-ink/Apple-glass CSS variables and rules for
-  the sidebar, dialogs, and scrollbars.
+  the sidebar, dialogs, composer, code blocks, and scrollbars.
+- Automatically follows DSH's light/dark appearance setting. Dark mode uses
+  charcoal paper, warm ivory type, and low-saturation amber controls instead of
+  applying a blunt color inversion.
 - Gives Chinese conversation text a readable Kai-style editorial voice,
   expressive handwritten headings, and preserves monospace for code.
 - Adds a compact recent-conversation tab rail above the chat, with live status
