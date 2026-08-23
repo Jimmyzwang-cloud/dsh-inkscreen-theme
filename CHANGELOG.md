@@ -2,8 +2,7 @@
 
 ## Unreleased
 
-- Add an automatic ink-and-paper dark mode following DSH's appearance setting.
-- Restyle dark sidebars, composer, inputs, dialogs, code blocks, session tabs, and scrollbars with Apple's neutral-gray surface hierarchy, translucent materials, restrained shadows, and a focused amber accent.
+- Remove the experimental dark-mode overrides and keep the theme focused on its original light ink-and-paper appearance.
 
 ## 0.1.0
 
