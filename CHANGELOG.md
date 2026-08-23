@@ -3,7 +3,7 @@
 ## Unreleased
 
 - Add an automatic ink-and-paper dark mode following DSH's appearance setting.
-- Restyle dark sidebars, composer, inputs, dialogs, code blocks, session tabs, and scrollbars with charcoal, ivory, and muted amber colors.
+- Restyle dark sidebars, composer, inputs, dialogs, code blocks, session tabs, and scrollbars with Apple's neutral-gray surface hierarchy, translucent materials, restrained shadows, and a focused amber accent.
 
 ## 0.1.0
 
